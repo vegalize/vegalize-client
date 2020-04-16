@@ -1,0 +1,35 @@
+.InformationCard {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 150px;
+
+  div {
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+
+    svg {
+      height: 50px;
+      width: 50px;
+    }
+  }
+
+  p {
+    text-align: center;
+
+    &.subtitle {
+      color: grey;
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 15px;
+    }
+    &:not(.subtitle) {
+      font-size: 0.9rem;
+    }
+  }
+}
