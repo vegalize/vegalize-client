@@ -1,9 +1,10 @@
 import React from "react";
+import NavbarCommon from "./common/NavbarCommon/NavbarCommon";
 
 const App = () => {
   return (
     <>
-      <p>Vegalize</p>
+      <NavbarCommon />
     </>
   );
 };
