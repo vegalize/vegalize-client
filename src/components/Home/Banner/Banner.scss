@@ -1,0 +1,37 @@
+.Banner {
+  align-items: center;
+  background-image: url("../../../assets/images/banner.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  div {
+    &:first-child {
+      align-items: center;
+      display: flex;
+      color: white;
+      flex-direction: column;
+
+      h1 {
+        font-size: 6rem;
+        font-weight: bold;
+        z-index: 1000;
+      }
+
+      h4 {
+        letter-spacing: 0.6rem;
+        z-index: 1000;
+      }
+    }
+
+    &:last-child {
+      background-color: rgba(3, 0, 0, 0.64);
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}

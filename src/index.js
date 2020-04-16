@@ -5,7 +5,6 @@ import "./index.scss";
 import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
 import { combineReducers, createStore, applyMiddleware } from "redux";
-import { createLogger } from "redux-logger";
 import thunk from "redux-thunk";
 import { Provider } from "react-redux";
 import { routing } from "./redux/reducers/routing";
@@ -15,10 +14,6 @@ const reducers = combineReducers({
   routing,
 });
 const middleware = [thunk];
-
-if (process.env.NODE_ENV !== "production") {
-  middleware.push(createLogger());
-}
 
 const store = createStore(reducers, applyMiddleware(...middleware));
 

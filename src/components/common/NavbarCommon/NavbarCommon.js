@@ -11,7 +11,7 @@ const NavbarCommon = () => {
         <Logo />
       </Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Link href="#home">Home</Nav.Link>
         <Nav.Link href="#features">Produtos</Nav.Link>
         <Nav.Link href="#pricing">Login</Nav.Link>
       </Nav>
