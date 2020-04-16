@@ -10,6 +10,7 @@ const Banner = () => {
       <div>
         <h1>Vegalize</h1>
         <h4>compra ou venda de produtos orgânicos</h4>
+        <button>Comprar</button>
       </div>
       <div />
     </header>

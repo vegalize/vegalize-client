@@ -23,6 +23,18 @@
         letter-spacing: 0.6rem;
         z-index: 1000;
       }
+
+      button {
+        background-color: green;
+        border: none;
+        color: white;
+        cursor: pointer;
+        height: 40px;
+        margin-top: 50px;
+        outline: none;
+        width: 150px;
+        z-index: 1000;
+      }
     }
 
     &:last-child {

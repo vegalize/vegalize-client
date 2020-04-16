@@ -21,6 +21,11 @@ const Information = () => {
         subtitle="Economia"
         text="Comprando de produtores locais, você economiza dinheiro"
       />
+      <InformationCard
+        icon={<Payment />}
+        subtitle="Economia"
+        text="Comprando de produtores locais, você economiza dinheiro"
+      />
     </section>
   );
 };
