@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Banner.scss";
 import { useWindowSizeHook } from "../../../hooks/windowHooks";
 
@@ -10,7 +11,9 @@ const Banner = () => {
       <div>
         <h1>Vegalize</h1>
         <h4>compra ou venda de produtos orgânicos</h4>
-        <button>Comprar</button>
+        <Link to="/produtos">
+          <button>Comprar</button>
+        </Link>
       </div>
       <div />
     </header>
