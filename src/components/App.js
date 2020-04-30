@@ -4,6 +4,8 @@ import { generateRoute } from "../helpers/routingHelper";
 import NavbarCommon from "./common/NavbarCommon/NavbarCommon";
 import Home from "./Home/Home";
 import Products from "./market/Products/Products";
+import Contact from "./Home/Contact/Contact";
+import Copyright from "./Home/Copyright/Copyright";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
           <Products />
         </Route>
       </Switch>
+      <Contact />
+      <Copyright />
     </>
   );
 };

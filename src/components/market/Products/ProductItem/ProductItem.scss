@@ -1,0 +1,43 @@
+.ProductItem {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  width: max-content;
+
+  img {
+    height: 400px;
+    width: 324px;
+  }
+
+  h4 {
+    font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  & > p {
+    &:nth-child(4) {
+      color: #000;
+      font-size: 1.4rem;
+      font-weight: 600;
+      padding-left: 0;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+}
